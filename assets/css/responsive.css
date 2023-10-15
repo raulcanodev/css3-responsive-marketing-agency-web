@@ -95,6 +95,10 @@
 		padding-top: 10rem;
 		padding-bottom: 7rem;
 	}
+	/* .menu-mobile{
+		visibility: hidden;
+		opacity: 0;
+	} */
 }
 
 @media (max-width: 1000px) {
@@ -104,6 +108,10 @@
 
 	.navbar__nav {
 		display: none;
+	}
+
+	.navbar__mobile-btn{
+		display: block;
 	}
 
 	.layout__banner {
@@ -408,5 +416,4 @@
 		flex-basis: 100%;
 		gap: 4rem;
 	}
-
 }
